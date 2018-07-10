@@ -1,3 +1,5 @@
+import { Comment } from './comment';
+
 export class Dish {
     name: String;
     image: String;
@@ -5,4 +7,5 @@ export class Dish {
     label: String;
     price: String;
     description: String;
+    comments: Comment[];
 }
